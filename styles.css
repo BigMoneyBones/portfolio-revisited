@@ -1,7 +1,37 @@
+.parent {
 
+    border: 1px solid white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 
+}
 
+.header {
 
+    border: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.banner {
+
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+
+}
 
 
 
