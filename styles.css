@@ -1,40 +1,57 @@
 .parent {
-
-    border: 1px solid white;
-    padding: 10px;
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row;
 }
 
-.header {
-
-    border: 0px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.profile {
-
+.flexbox-item-1 {
     padding: 15px;
     margin: 15px;
     display: flex;
-    justify-content: left;
-
+    align-items: center;
+    height: 500px;
+    width: 300px;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
+    color: aliceblue;
+    justify-content: space-between;
 }
 
-.banner {
-
-    padding: 20px;
-    margin: 10px;
+.flexbox-item-2 {
+    padding: 15px;
+    margin: 15px;
     display: flex;
-    flex-direction: row;
-    flex-grow: 1;
+    align-items: center;
+    height: 500px;
+    width: 300px;
+    font-style: italic;
+    font-family: fantasy;
+    text-align: center;
+    color: brown;
+    justify-content: space-between;
+}
 
+.flexbox-item-3 {
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 300px;
+    font-style: normal;
+    font-family: sans-serif;
+    text-align: center;
+    color: green;
+    justify-content: space-between;
+}
+
+.flexbox-item-4 {
+    padding: 10px;
+    margin: 10px;
 }
 
 body {
-    background-image: url(https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(https://images.pexels.com/photos/1552173/pexels-photo-1552173.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
